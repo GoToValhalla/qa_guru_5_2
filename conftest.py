@@ -12,8 +12,6 @@ def set_webdriver():
 @pytest.fixture()
 def set_browser_size():
     browser.config.window_height = 1440
-    browser.config.window_width = 2560
-    browser.config.window_height = 960
     browser.config.window_width = 720
     return browser
 
